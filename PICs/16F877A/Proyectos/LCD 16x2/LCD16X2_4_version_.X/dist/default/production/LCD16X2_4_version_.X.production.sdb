@@ -1,0 +1,119 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 C:\Users\marco\Desktop\LCD16X2_4_version_.X\LCD16x2.c
+[v _LCD_delay LCD_delay `(v  1 e 1 0 ]
+"8
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"21
+[v _escribir_comando escribir_comando `(v  1 e 1 0 ]
+"28
+[v _escribir_caracter escribir_caracter `(v  1 e 1 0 ]
+"35
+[v _escribir_cadena escribir_cadena `(v  1 e 1 0 ]
+"42
+[v _leer_direccion_DDRAM leer_direccion_DDRAM `(uc  1 e 1 0 ]
+"52
+[v _escribir_caracter_especial escribir_caracter_especial `(v  1 e 1 0 ]
+"5 C:\Users\marco\Desktop\LCD16X2_4_version_.X\MAIN.c
+[v _main main `(v  1 e 1 0 ]
+"19 C:\Users\marco\Desktop\LCD16X2_4_version_.X/LCD16x2.h
+[v _direccion_DDRAM direccion_DDRAM `uc  1 e 1 0 ]
+"20
+[v _CGRAM1 CGRAM1 `[8]uc  1 e 8 0 ]
+"217 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S86 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"234
+[u S95 . 1 `S86 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES95  1 e 1 @6 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S65 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1393
+[u S74 . 1 `S65 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES74  1 e 1 @134 ]
+"5 C:\Users\marco\Desktop\LCD16X2_4_version_.X\MAIN.c
+[v _main main `(v  1 e 1 0 ]
+{
+"18
+} 0
+"52 C:\Users\marco\Desktop\LCD16X2_4_version_.X\LCD16x2.c
+[v _escribir_caracter_especial escribir_caracter_especial `(v  1 e 1 0 ]
+{
+[v escribir_caracter_especial@DirCGRAM DirCGRAM `*.1uc  1 a 1 wreg ]
+"55
+[v escribir_caracter_especial@i i `uc  1 a 1 4 ]
+"52
+[v escribir_caracter_especial@DirCGRAM DirCGRAM `*.1uc  1 a 1 wreg ]
+[v escribir_caracter_especial@DirCGRAM DirCGRAM `*.1uc  1 a 1 3 ]
+"59
+} 0
+"42
+[v _leer_direccion_DDRAM leer_direccion_DDRAM `(uc  1 e 1 0 ]
+{
+"51
+} 0
+"21
+[v _escribir_comando escribir_comando `(v  1 e 1 0 ]
+{
+[v escribir_comando@comando comando `uc  1 a 1 wreg ]
+[v escribir_comando@comando comando `uc  1 a 1 wreg ]
+[v escribir_comando@comando comando `uc  1 a 1 1 ]
+"27
+} 0
+"35
+[v _escribir_cadena escribir_cadena `(v  1 e 1 0 ]
+{
+[v escribir_cadena@cadena cadena `*.24uc  1 a 1 wreg ]
+"36
+[v escribir_cadena@i i `uc  1 a 1 4 ]
+"35
+[v escribir_cadena@cadena cadena `*.24uc  1 a 1 wreg ]
+[v escribir_cadena@cadena cadena `*.24uc  1 a 1 3 ]
+"41
+} 0
+"28
+[v _escribir_caracter escribir_caracter `(v  1 e 1 0 ]
+{
+[v escribir_caracter@caracter caracter `uc  1 a 1 wreg ]
+[v escribir_caracter@caracter caracter `uc  1 a 1 wreg ]
+[v escribir_caracter@caracter caracter `uc  1 a 1 1 ]
+"34
+} 0
+"8
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"20
+} 0
+"5
+[v _LCD_delay LCD_delay `(v  1 e 1 0 ]
+{
+"7
+} 0

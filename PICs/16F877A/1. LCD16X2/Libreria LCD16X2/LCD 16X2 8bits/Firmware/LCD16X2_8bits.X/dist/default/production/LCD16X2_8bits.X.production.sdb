@@ -1,0 +1,170 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 C:\Users\marco\OneDrive\Documentos\Electronica\LCD16X2_PIC16F877A\Libreria LCD16X2\LCD 16X2 8bits\Firmware\LCD16X2_8bits.X\LCD16X2_8bits.c
+[v _exec_time1 exec_time1 `(v  1 e 1 0 ]
+"11
+[v _exec_time2 exec_time2 `(v  1 e 1 0 ]
+"18
+[v _clear_disp clear_disp `(v  1 e 1 0 ]
+"24
+[v _return_home return_home `(v  1 e 1 0 ]
+"30
+[v _enviar_inst_8bits enviar_inst_8bits `(v  1 e 1 0 ]
+"36
+[v _Init_LCD Init_LCD `(v  1 e 1 0 ]
+"53
+[v _gotoxy gotoxy `(v  1 e 1 0 ]
+"65
+[v _write_DDRAM write_DDRAM `(v  1 e 1 0 ]
+"73
+[v _printLCD printLCD `(v  1 e 1 0 ]
+"83
+[v _printCGRAM printCGRAM `(v  1 e 1 0 ]
+"95
+[v _get_add get_add `(uc  1 e 1 0 ]
+"104
+[v _WriteCGRAM WriteCGRAM `(v  1 e 1 0 ]
+"5 C:\Users\marco\OneDrive\Documentos\Electronica\LCD16X2_PIC16F877A\Libreria LCD16X2\LCD 16X2 8bits\Firmware\LCD16X2_8bits.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+[s S52 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"296 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[u S61 . 1 `S52 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES61  1 e 1 @7 ]
+"341
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S80 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1455
+[u S89 . 1 `S80 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES89  1 e 1 @135 ]
+"1500
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"72 C:\Users\marco\OneDrive\Documentos\Electronica\LCD16X2_PIC16F877A\Libreria LCD16X2\LCD 16X2 8bits\Firmware\LCD16X2_8bits.X\LCD16X2_8bits.h
+[v _SPCH1 SPCH1 `[8]uc  1 e 8 0 ]
+"5 C:\Users\marco\OneDrive\Documentos\Electronica\LCD16X2_PIC16F877A\Libreria LCD16X2\LCD 16X2 8bits\Firmware\LCD16X2_8bits.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"17
+} 0
+"73 C:\Users\marco\OneDrive\Documentos\Electronica\LCD16X2_PIC16F877A\Libreria LCD16X2\LCD 16X2 8bits\Firmware\LCD16X2_8bits.X\LCD16X2_8bits.c
+[v _printLCD printLCD `(v  1 e 1 0 ]
+{
+[v printLCD@cadena cadena `*.24uc  1 a 1 wreg ]
+"75
+[v printLCD@i i `uc  1 a 1 3 ]
+"73
+[v printLCD@cadena cadena `*.24uc  1 a 1 wreg ]
+"75
+[v printLCD@cadena cadena `*.24uc  1 a 1 4 ]
+"81
+} 0
+"53
+[v _gotoxy gotoxy `(v  1 e 1 0 ]
+{
+[v gotoxy@y y `uc  1 a 1 wreg ]
+[v gotoxy@y y `uc  1 a 1 wreg ]
+[v gotoxy@x x `uc  1 p 1 2 ]
+"56
+[v gotoxy@y y `uc  1 a 1 3 ]
+"64
+} 0
+"104
+[v _WriteCGRAM WriteCGRAM `(v  1 e 1 0 ]
+{
+[v WriteCGRAM@direccionCGRAM direccionCGRAM `uc  1 a 1 wreg ]
+"105
+[v WriteCGRAM@DDRAM_add DDRAM_add `uc  1 a 1 8 ]
+"104
+[v WriteCGRAM@direccionCGRAM direccionCGRAM `uc  1 a 1 wreg ]
+[v WriteCGRAM@dirSpecialChar dirSpecialChar `*.4uc  1 p 1 5 ]
+[v WriteCGRAM@direccionCGRAM direccionCGRAM `uc  1 a 1 7 ]
+"110
+} 0
+"83
+[v _printCGRAM printCGRAM `(v  1 e 1 0 ]
+{
+[v printCGRAM@cadena cadena `*.4uc  1 a 1 wreg ]
+"85
+[v printCGRAM@i i `uc  1 a 1 4 ]
+"83
+[v printCGRAM@cadena cadena `*.4uc  1 a 1 wreg ]
+"85
+[v printCGRAM@cadena cadena `*.4uc  1 a 1 3 ]
+"91
+} 0
+"65
+[v _write_DDRAM write_DDRAM `(v  1 e 1 0 ]
+{
+[v write_DDRAM@character character `uc  1 a 1 wreg ]
+[v write_DDRAM@character character `uc  1 a 1 wreg ]
+"67
+[v write_DDRAM@character character `uc  1 a 1 1 ]
+"72
+} 0
+"95
+[v _get_add get_add `(uc  1 e 1 0 ]
+{
+"96
+[v get_add@add add `uc  1 a 1 1 ]
+"102
+} 0
+"36
+[v _Init_LCD Init_LCD `(v  1 e 1 0 ]
+{
+"52
+} 0
+"24
+[v _return_home return_home `(v  1 e 1 0 ]
+{
+"29
+} 0
+"30
+[v _enviar_inst_8bits enviar_inst_8bits `(v  1 e 1 0 ]
+{
+[v enviar_inst_8bits@instruction instruction `uc  1 a 1 wreg ]
+[v enviar_inst_8bits@instruction instruction `uc  1 a 1 wreg ]
+"32
+[v enviar_inst_8bits@instruction instruction `uc  1 a 1 1 ]
+"35
+} 0
+"11
+[v _exec_time2 exec_time2 `(v  1 e 1 0 ]
+{
+"17
+} 0
+"18
+[v _clear_disp clear_disp `(v  1 e 1 0 ]
+{
+"23
+} 0
+"4
+[v _exec_time1 exec_time1 `(v  1 e 1 0 ]
+{
+"10
+} 0
